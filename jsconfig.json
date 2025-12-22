@@ -1,0 +1,15 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // This tells Next.js/Webpack that any import starting with "@/..." 
+      // should look in the project root directory ("./*")
+      "@/*": ["./*"], 
+      // If your code is inside a 'src' directory, you would use:
+      // "@/*": ["./src/*"],
+    }
+  },
+  "include": ["**/*.js", "**/*.jsx", "app/attendance/coach", "app/attendance/coach"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,9 @@
+# Example .vercelignore
+uploads/
+storage/
+backup/
+*.zip
+*.mp4
+*.mov
+*.psd
+*.next.zip
